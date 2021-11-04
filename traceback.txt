@@ -1,0 +1,36 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 17, in script
+    define left = position(xalign = 0, yalign = 0.7)
+  File "game/script.rpy", line 17, in script
+    define left = position(xalign = 0, yalign = 0.7)
+  File "game/script.rpy", line 17, in <module>
+    define left = position(xalign = 0, yalign = 0.7)
+NameError: name 'position' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 331, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 550, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 17, in script
+    define left = position(xalign = 0, yalign = 0.7)
+  File "game/script.rpy", line 17, in script
+    define left = position(xalign = 0, yalign = 0.7)
+  File "renpy/ast.py", line 2213, in execute
+    self.set()
+  File "renpy/ast.py", line 2224, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 17, in <module>
+    define left = position(xalign = 0, yalign = 0.7)
+NameError: name 'position' is not defined
+
+Windows-10-10.0.18362
+Ren'Py 7.4.10.2178
+TEST 1.0
+Thu Nov  4 23:11:10 2021
