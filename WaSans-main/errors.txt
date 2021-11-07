@@ -1,0 +1,13 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 36: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+(Perhaps you left out a " at the end of the first line.)
+    "... 그래, 물어볼 게 하나 있어.
+    ^
+                가장 나쁜 사람이라 할지라도 바뀔 수 있을까...?
+                노력만 한다면, 모두가 착한 사람이 될 수 있을까?"
+
+Ren'Py Version: Ren'Py 7.4.10.2178
+Sun Nov  7 16:26:15 2021
